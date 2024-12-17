@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9200BE6B2D10256900F65ADF /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9200BE6A2D10256900F65ADF /* SceneKit.framework */; };
+		9200BE6D2D10257B00F65ADF /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9200BE6C2D10257B00F65ADF /* Metal.framework */; };
+		9200BE942D10751300F65ADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9200BE882D10751300F65ADF /* Preview Assets.xcassets */; };
+		9200BE952D10751300F65ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9200BE8A2D10751300F65ADF /* Assets.xcassets */; };
+		9200BE962D10751300F65ADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE8B2D10751300F65ADF /* ContentView.swift */; };
+		9200BE982D10751300F65ADF /* MainSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE8D2D10751300F65ADF /* MainSwiftUIScene.swift */; };
+		9200BE9C2D10751300F65ADF /* Smart_3D_ObjManipulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE922D10751300F65ADF /* Smart_3D_ObjManipulationApp.swift */; };
+		9200BE9E2D10776500F65ADF /* CustomScheneWithMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE9D2D10775E00F65ADF /* CustomScheneWithMetal.swift */; };
+		92999B6E2D11848C00D5BAE3 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92999B6D2D11848700D5BAE3 /* MetalRenderer.swift */; };
+		92999B702D11852500D5BAE3 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92999B6F2D11850100D5BAE3 /* MetalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9200BE4D2D10254700F65ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9200BE332D10254400F65ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9200BE3A2D10254400F65ADF;
+			remoteInfo = "Smart-3D-ObjManipulation";
+		};
+		9200BE572D10254700F65ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9200BE332D10254400F65ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9200BE3A2D10254400F65ADF;
+			remoteInfo = "Smart-3D-ObjManipulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9200BE3B2D10254400F65ADF /* Smart-3D-ObjManipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart-3D-ObjManipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200BE4C2D10254700F65ADF /* Smart-3D-ObjManipulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart-3D-ObjManipulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200BE562D10254700F65ADF /* Smart-3D-ObjManipulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart-3D-ObjManipulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200BE6A2D10256900F65ADF /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		9200BE6C2D10257B00F65ADF /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		9200BE882D10751300F65ADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9200BE8A2D10751300F65ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9200BE8B2D10751300F65ADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9200BE8D2D10751300F65ADF /* MainSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIScene.swift; sourceTree = "<group>"; };
+		9200BE912D10751300F65ADF /* Smart_3D_ObjManipulation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smart_3D_ObjManipulation.entitlements; sourceTree = "<group>"; };
+		9200BE922D10751300F65ADF /* Smart_3D_ObjManipulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_3D_ObjManipulationApp.swift; sourceTree = "<group>"; };
+		9200BE9D2D10775E00F65ADF /* CustomScheneWithMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScheneWithMetal.swift; sourceTree = "<group>"; };
+		92999B6D2D11848700D5BAE3 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		92999B6F2D11850100D5BAE3 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9200BE4F2D10254700F65ADF /* Smart-3D-ObjManipulationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart-3D-ObjManipulationTests";
+			sourceTree = "<group>";
+		};
+		9200BE592D10254700F65ADF /* Smart-3D-ObjManipulationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart-3D-ObjManipulationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9200BE382D10254400F65ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9200BE6D2D10257B00F65ADF /* Metal.framework in Frameworks */,
+				9200BE6B2D10256900F65ADF /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9200BE492D10254700F65ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9200BE532D10254700F65ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9200BE322D10254400F65ADF = {
+			isa = PBXGroup;
+			children = (
+				9200BE932D10751300F65ADF /* Smart-3D-ObjManipulation */,
+				9200BE4F2D10254700F65ADF /* Smart-3D-ObjManipulationTests */,
+				9200BE592D10254700F65ADF /* Smart-3D-ObjManipulationUITests */,
+				9200BE692D10256900F65ADF /* Frameworks */,
+				9200BE3C2D10254400F65ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9200BE3C2D10254400F65ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE3B2D10254400F65ADF /* Smart-3D-ObjManipulation.app */,
+				9200BE4C2D10254700F65ADF /* Smart-3D-ObjManipulationTests.xctest */,
+				9200BE562D10254700F65ADF /* Smart-3D-ObjManipulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9200BE692D10256900F65ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE6C2D10257B00F65ADF /* Metal.framework */,
+				9200BE6A2D10256900F65ADF /* SceneKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9200BE892D10751300F65ADF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE882D10751300F65ADF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9200BE932D10751300F65ADF /* Smart-3D-ObjManipulation */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE8B2D10751300F65ADF /* ContentView.swift */,
+				9200BE8D2D10751300F65ADF /* MainSwiftUIScene.swift */,
+				92999B6D2D11848700D5BAE3 /* MetalRenderer.swift */,
+				92999B6F2D11850100D5BAE3 /* MetalView.swift */,
+				9200BE892D10751300F65ADF /* Preview Content */,
+				9200BE8A2D10751300F65ADF /* Assets.xcassets */,
+				9200BE9D2D10775E00F65ADF /* CustomScheneWithMetal.swift */,
+				9200BE912D10751300F65ADF /* Smart_3D_ObjManipulation.entitlements */,
+				9200BE922D10751300F65ADF /* Smart_3D_ObjManipulationApp.swift */,
+			);
+			path = "Smart-3D-ObjManipulation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9200BE3A2D10254400F65ADF /* Smart-3D-ObjManipulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9200BE602D10254700F65ADF /* Build configuration list for PBXNativeTarget "Smart-3D-ObjManipulation" */;
+			buildPhases = (
+				9200BE372D10254400F65ADF /* Sources */,
+				9200BE382D10254400F65ADF /* Frameworks */,
+				9200BE392D10254400F65ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart-3D-ObjManipulation";
+			packageProductDependencies = (
+			);
+			productName = "Smart-3D-ObjManipulation";
+			productReference = 9200BE3B2D10254400F65ADF /* Smart-3D-ObjManipulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9200BE4B2D10254700F65ADF /* Smart-3D-ObjManipulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9200BE632D10254700F65ADF /* Build configuration list for PBXNativeTarget "Smart-3D-ObjManipulationTests" */;
+			buildPhases = (
+				9200BE482D10254700F65ADF /* Sources */,
+				9200BE492D10254700F65ADF /* Frameworks */,
+				9200BE4A2D10254700F65ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9200BE4E2D10254700F65ADF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9200BE4F2D10254700F65ADF /* Smart-3D-ObjManipulationTests */,
+			);
+			name = "Smart-3D-ObjManipulationTests";
+			packageProductDependencies = (
+			);
+			productName = "Smart-3D-ObjManipulationTests";
+			productReference = 9200BE4C2D10254700F65ADF /* Smart-3D-ObjManipulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9200BE552D10254700F65ADF /* Smart-3D-ObjManipulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9200BE662D10254700F65ADF /* Build configuration list for PBXNativeTarget "Smart-3D-ObjManipulationUITests" */;
+			buildPhases = (
+				9200BE522D10254700F65ADF /* Sources */,
+				9200BE532D10254700F65ADF /* Frameworks */,
+				9200BE542D10254700F65ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9200BE582D10254700F65ADF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9200BE592D10254700F65ADF /* Smart-3D-ObjManipulationUITests */,
+			);
+			name = "Smart-3D-ObjManipulationUITests";
+			packageProductDependencies = (
+			);
+			productName = "Smart-3D-ObjManipulationUITests";
+			productReference = 9200BE562D10254700F65ADF /* Smart-3D-ObjManipulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9200BE332D10254400F65ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					9200BE3A2D10254400F65ADF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9200BE4B2D10254700F65ADF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9200BE3A2D10254400F65ADF;
+					};
+					9200BE552D10254700F65ADF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9200BE3A2D10254400F65ADF;
+					};
+				};
+			};
+			buildConfigurationList = 9200BE362D10254400F65ADF /* Build configuration list for PBXProject "Smart-3D-ObjManipulation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9200BE322D10254400F65ADF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9200BE3C2D10254400F65ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9200BE3A2D10254400F65ADF /* Smart-3D-ObjManipulation */,
+				9200BE4B2D10254700F65ADF /* Smart-3D-ObjManipulationTests */,
+				9200BE552D10254700F65ADF /* Smart-3D-ObjManipulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9200BE392D10254400F65ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9200BE942D10751300F65ADF /* Preview Assets.xcassets in Resources */,
+				9200BE952D10751300F65ADF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9200BE4A2D10254700F65ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9200BE542D10254700F65ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9200BE372D10254400F65ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9200BE962D10751300F65ADF /* ContentView.swift in Sources */,
+				9200BE982D10751300F65ADF /* MainSwiftUIScene.swift in Sources */,
+				92999B6E2D11848C00D5BAE3 /* MetalRenderer.swift in Sources */,
+				92999B702D11852500D5BAE3 /* MetalView.swift in Sources */,
+				9200BE9E2D10776500F65ADF /* CustomScheneWithMetal.swift in Sources */,
+				9200BE9C2D10751300F65ADF /* Smart_3D_ObjManipulationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9200BE482D10254700F65ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9200BE522D10254700F65ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9200BE4E2D10254700F65ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9200BE3A2D10254400F65ADF /* Smart-3D-ObjManipulation */;
+			targetProxy = 9200BE4D2D10254700F65ADF /* PBXContainerItemProxy */;
+		};
+		9200BE582D10254700F65ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9200BE3A2D10254400F65ADF /* Smart-3D-ObjManipulation */;
+			targetProxy = 9200BE572D10254700F65ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9200BE5E2D10254700F65ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9200BE5F2D10254700F65ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9200BE612D10254700F65ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Smart-3D-ObjManipulation/Smart_3D_ObjManipulation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Smart-3D-ObjManipulation/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roboiq.testplanets.Smart-3D-ObjManipulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9200BE622D10254700F65ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Smart-3D-ObjManipulation/Smart_3D_ObjManipulation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Smart-3D-ObjManipulation/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roboiq.testplanets.Smart-3D-ObjManipulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9200BE642D10254700F65ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roboiq.testplanets.Smart-3D-ObjManipulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart-3D-ObjManipulation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart-3D-ObjManipulation";
+			};
+			name = Debug;
+		};
+		9200BE652D10254700F65ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roboiq.testplanets.Smart-3D-ObjManipulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart-3D-ObjManipulation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart-3D-ObjManipulation";
+			};
+			name = Release;
+		};
+		9200BE672D10254700F65ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roboiq.testplanets.Smart-3D-ObjManipulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Smart-3D-ObjManipulation";
+			};
+			name = Debug;
+		};
+		9200BE682D10254700F65ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roboiq.testplanets.Smart-3D-ObjManipulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Smart-3D-ObjManipulation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9200BE362D10254400F65ADF /* Build configuration list for PBXProject "Smart-3D-ObjManipulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9200BE5E2D10254700F65ADF /* Debug */,
+				9200BE5F2D10254700F65ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9200BE602D10254700F65ADF /* Build configuration list for PBXNativeTarget "Smart-3D-ObjManipulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9200BE612D10254700F65ADF /* Debug */,
+				9200BE622D10254700F65ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9200BE632D10254700F65ADF /* Build configuration list for PBXNativeTarget "Smart-3D-ObjManipulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9200BE642D10254700F65ADF /* Debug */,
+				9200BE652D10254700F65ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9200BE662D10254700F65ADF /* Build configuration list for PBXNativeTarget "Smart-3D-ObjManipulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9200BE672D10254700F65ADF /* Debug */,
+				9200BE682D10254700F65ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9200BE332D10254400F65ADF /* Project object */;
+}
